@@ -1,0 +1,12 @@
+<h1> Show a Kitten </h1>
+<div class="row">
+    <section class="kitten_info">
+        <ul>
+        <li> <%= @kitten.name %> </li>
+        <li> <%= @kitten.age %> </li>
+        <li> <%= @kitten.cuteness %> </li>
+        <li> <%= @kitten.softness %> </li> 
+        </ul>
+        <%= link_to "delete kitten", @kitten, method: :delete=%>
+    </section>
+</div>
