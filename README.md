@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project: APIS 
+  This is a project where I will set up a Rails app to be a data-producing API… which is just a fancy way of saying that all my controller methods will render data instead of HTML. I consider this a drill in quickly building a pure vanilla RESTful resource. this will be working with an external APIs.
 
-Things you may want to cover:
+# Website
+  [Project website (deployed)]().
 
-* Ruby version
+## prerequisite
+1. Git.
+2. Code editor.
+3. Code linter.
+4. Rails 5.
+5. Browser. 
 
-* System dependencies
+## How to run the program
+1. Open the terminal.
 
-* Configuration
+2. Enter `https://github.com/othman-19/API_othman_kittens`.
 
-* Database creation
+3. Navigate to the cloned repository.
 
-* Database initialization
+4. In the terminal cd into API_othman_kittens.
 
-* How to run the test suite
+5. Install bundle by typing `bundle install` and update it by typing `bundle update` in the terminal.
 
-* Services (job queues, cache servers, search engines, etc.)
+6. Run the rails server by typing `rails server` in the terminal.
 
-* Deployment instructions
+7. Open in browser with `localhost:3000`
 
-* ...
+## Contributor(s)
+1. [Othamane Naamani](https://github.com/othman-19/).
