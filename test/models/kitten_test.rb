@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class KittenTest < ActiveSupport::TestCase
   def setup
-    @kitten = Kitten.new(name: 'Chicha', age: 2, cuteness: "cute", softness: "soft")
+    @kitten = Kitten.new(name: 'Chicha', age: 2, cuteness: 'cute', softness: 'soft')
   end
 
   test 'valid kitten' do

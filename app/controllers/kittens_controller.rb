@@ -1,22 +1,22 @@
+# frozen_string_literal: true
 
 class KittensController < ApplicationController
-  
   before_action :set_kitten, only: %i[show edit update destroy]
-  
+
   def index
     @kittens = Kitten.all
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @kittens }
-      format.json { render :json => @kittens }
+      format.xml { render xml: @kittens }
+      format.json { render json: @kittens }
     end
   end
 
   def show
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @kitten }
-      format.json { render :json => @kitten }
+      format.xml { render xml: @kitten }
+      format.json { render json: @kitten }
     end
   end
 
@@ -61,9 +61,10 @@ class KittensController < ApplicationController
 end
 
 private
-  def kitten_params
-    params.require(:kitten).permit(:name, :age, :cuteness, :softness)
-  end
-  def set_kitten
-    @kitten = Kitten.find(params[:id])
-  end
+def kitten_params
+  params.require(:kitten).permit(:name, :age, :cuteness, :softness)
+end
+
+def set_kitten
+  @kitten = Kitten.find(params[:id])
+end
