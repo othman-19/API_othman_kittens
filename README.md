@@ -4,7 +4,7 @@
   This is a project where I will set up a Rails app to be a data-producing API… which is just a fancy way of saying that all my controller methods will render data instead of HTML. I consider this a drill in quickly building a pure vanilla RESTful resource. this will be working with an external APIs.
 
 # Website
-  [Project website (deployed)]().
+  [Project website (deployed)](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis).
 
 ## prerequisite
 1. Git.
